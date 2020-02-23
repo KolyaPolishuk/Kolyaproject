@@ -1,0 +1,74 @@
+@font-face {
+    font-family:"Montserrat-SemiBold";
+    src: url(./fonts/Montserrat-SemiBold.ttf)format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family:"Montserrat-Medium";
+    src: url(./fonts/Montserrat-Medium.ttf)format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family:"Brush-ScriptStd";
+    src: url(./fonts/Brush-Script.ttf)format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.background {
+    background-color: #f6afcf;
+    position: relative;
+    width: 280px;
+    height: 418px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.circle {
+    top: -7px;
+    left: 44px;
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background-color: #f7bcd7;
+    opacity: 0.6;
+    mix-blend-mode: soft-light;
+}
+.circle2 {
+    top: 89px;
+    left: 125px;
+    position: absolute;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    background-color: #f7bcd7;
+    opacity: 0.6;
+    mix-blend-mode: soft-light;
+}
+.title {
+    position: absolute;
+    font-family: Montserrat-Medium, Montserrat-SemiBold;
+    font-weight: 900;
+    top: 31px;
+    left: 35px;
+    font-size: 19px;
+    width: 210px;
+    height: 316px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f181d;
+}
+.mark {
+    font-family: Brush-ScriptStd;
+    /* top: 33px;
+    left: 27px; */
+    position: absolute;
+    font-size: 179px;
+    color: #ffffff;
+}
